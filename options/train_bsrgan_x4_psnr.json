@@ -1,10 +1,10 @@
 {
   "task": "bsrgan_x4_psnr"     //  root/task/images|models|options
   , "model": "plain"           // "plain" | "plain2" if two inputs
-  , "gpu_ids": [0]             // [0,1,2,3] for 4 GPUs
+  , "gpu_ids": [4]             // [0,1,2,3] for 4 GPUs
   , "dist": true
 
-  , "scale": 4       // broadcast to "datasets"
+  , "scale": 8       // broadcast to "datasets"
   , "n_channels": 3  // broadcast to "datasets", 1 for grayscale, 3 for color
 
   , "path": {
